@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <h1>
+        Guess What I'm Thinking...
+    </h1>
+    <h3>
+        Select any of the letter keys on your keyboard to guess the word I'm thinking of!
+    </h3>
+    <h4 id="buttonInstruction-text">
+        Click the button to begin...
+    </h4>
+    <br>
+    <button id="begin" type="button" class="btn btn-dark">Begin</button>
+    <div id="gameBoard">
+        <p>Correct Guesses: </p>
+        <p id="correct"></p>
+        <p>Incorrect Guesses: </p>
+        <p id="incorrect"></p>
+        <p>Lives Left: </p>
+        <p id="guessesLeft"></p>
+    </div>
+    <script src="game.js">
+
+    </script>
+</body>
+
+</html>

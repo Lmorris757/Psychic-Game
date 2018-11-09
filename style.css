@@ -1,0 +1,20 @@
+body {
+    padding: 5px;
+      text-align: center
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type=text] {
+    width: 20em
+  }
+  
+  p {
+    margin: 1em 0 0;
+  }
+  
+  #gameBoard{
+      display:none;
+  }
