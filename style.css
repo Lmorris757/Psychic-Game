@@ -18,3 +18,9 @@ body {
   #gameBoard{
       display:none;
   }
+  #gameOver{
+    display:none;
+  }
+  #gameWin{
+    display:none;
+  }
